@@ -32,7 +32,8 @@ attribute "cassandra/partitioner",
   :recipes      => ["cassandra::configure"],
   :type         => "string",
   :display_name => "partitioner",
-  :required     => "required"
+  :required     => "recommended"
+  :default      => "Murmur3Partitioner"
 
 attribute "cassandra/seeds",
   :description  => "Comma seperated list of seed hosts",

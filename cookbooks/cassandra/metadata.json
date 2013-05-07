@@ -55,7 +55,7 @@
       ],
       "type": "string",
       "display_name": "partitioner",
-      "required": "required",
+      "required": "recommended",
       "default": "Murmur3Partitioner",
       "choice": [
         "Murmur3Partitioner", "RandomPartitioner", "ByteOrderedPartitioner", "OrderPreservingPartitioner"
