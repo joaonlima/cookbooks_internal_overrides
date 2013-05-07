@@ -32,7 +32,7 @@ attribute "cassandra/partitioner",
   :recipes      => ["cassandra::configure"],
   :type         => "string",
   :display_name => "partitioner",
-  :required     => "recommended"
+  :required     => "recommended",
   :default      => "Murmur3Partitioner"
 
 attribute "cassandra/seeds",
